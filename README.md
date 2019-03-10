@@ -19,4 +19,4 @@ Zipkin ： 在ELK平台中的数据分析维度缺少对全链路中各阶段时
   ELK就显得力不存心，ZipKin就可以轻松解决  
 
 下图展示了ZipKin的基础架构，主要由4个和核心组件构成：
-![image text](https://github.com/baiyanlang2016/sleuth-zipkin/tree/master/images/zipkin.jpg)
+![image text](https://github.com/baiyanlang2016/sleuth-zipkin/images/zipkin.jpg)
