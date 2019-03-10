@@ -25,7 +25,7 @@ Zipkin ： 在ELK平台中的数据分析维度缺少对全链路中各阶段时
   ELK就显得力不存心，ZipKin就可以轻松解决  
 
 下图展示了ZipKin的基础架构，主要由4个和核心组件构成：
-![image text](https://github.com/baiyanlang2016/sleuth-zipkin/tree/master/images/zipkin.jpg)
+![image](https://github.com/baiyanlang2016/sleuth-zipkin/tree/master/images/zipkin.jpg)
 
 Collector  收集器组件，处理从外部系统发送过来的追踪信息，将这些信息转化为zipkin内部处理的Span格式，以支持后续的储存、分析、展示等
 Storge    存储组件 处理收集器接受到的追踪信息，默认会将信息存储在内存中，我们也可以修改存储策略，通过使用其他存储组件将追踪信息存储到数据库中
