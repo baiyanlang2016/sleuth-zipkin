@@ -68,6 +68,10 @@ WEB UI 基于API组件实现的上层应用。通过UI组件，用户可以方�
                       spring.rabbitmq.host=
                       spring.rabbitmq.port=
                       spring.rabbitmq.password=
+                      
+                      #项目启动后将在rabbitmq创建sleuth exchange和zipkin queue
+                      #发送的队列名称，默认zipkin，正常情况不要修改因为zipkin-server默认监控队列也是zipki
+                      #https://blog.csdn.net/xjune/article/details/79870054
                   
                   2.修改Zipkin-server服务端
                       <dependency>
