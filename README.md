@@ -130,7 +130,11 @@ WEB UI 基于API组件实现的上层应用。通过UI组件，用户可以方�
             
         3. 切换存储类型，让zipkin-server连接到MySql,配置如下：
             zipkin.storage.type=mysql
+                     
+(三) API ------> RESTful Api
+![image](https://github.com/baiyanlang2016/sleuth-zipkin/blob/master/images/zipkin-api.jpg)
         
+   更多关于A{PI页面，可以访问官网  https://zipkin.io/zipkin-api/
                      
 
   
